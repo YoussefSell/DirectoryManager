@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>DirectoryManager</PackageId>
+    <AssemblyName>DirectoryManager</AssemblyName>
+    <RootNamespace>System.IO.Expand</RootNamespace>
+    <Authors>Youssef Sellami</Authors>
+    <Description>Simple NuGet package to extend the System.IO.DirectoryInfo Object to include more functionality, the name space of the package is System.IO.Expand</Description>
+    <PackageReleaseNotes>Add More Functions, and fix some xml texts</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>Directory Manager</Product>
+    <PackageIconUrl>https://raw.githubusercontent.com/YoussefSell/DirectoryManager/master/Icon/DiretoryManagerIcon.png</PackageIconUrl>
+    <PackageProjectUrl>https://youssefsell.github.io/DirectoryManager</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/YoussefSell/DirectoryManager</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+    <PackageTags>System.IO  DirectoryManager Extend DirectoryInfo DirectoriesManager</PackageTags>
+    <Version>2.1.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>C:\Users\youss\Desktop\WorkSpace\Projects\Published products\DirectoryManager\DirectoryManager\bin\Release\netstandard2.0\DirectoryManager.xml</DocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+</Project>
