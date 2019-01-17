@@ -81,4 +81,4 @@ private void DirectoryContentChanged(object sender, DirectoryContentChangedEvent
 ```
 
 also the DirectoryManager class has some static methods that you can use to move, copy or rename a list of directories.
-we have built a simple program that you can explore to see deferent implementation of the plugin.
+we have built a simple program that you can explore to see deferent implementation of the plugin. you can try it [from here](https://github.com/YoussefSell/DirectoriesManager/releases/download/v1.0.0/Setup.exe) , to see the source code check the app repo [from here](https://github.com/YoussefSell/DirectoriesManager)
